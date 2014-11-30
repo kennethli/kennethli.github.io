@@ -1,0 +1,48 @@
+h1.jgh-title.big {
+	font-size: 40px;
+	color: #4B4545;
+}
+h1.jgh-title.small {
+	font-size: 30px;
+	line-height: 58px;
+	color: #EDEDED;
+	}
+h1.jgh-title {
+	float: left;
+	font-family:"museo-slab";
+}
+.jgh-header{
+	background: #9fc9d7;
+	background: -moz-linear-gradient(top,  #9fc9d7 0%, #7898a4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9fc9d7), color-stop(100%,#7898a4));
+	background: -webkit-linear-gradient(top,  #9fc9d7 0%,#7898a4 100%);
+	background: -o-linear-gradient(top,  #9fc9d7 0%,#7898a4 100%);
+	background: -ms-linear-gradient(top,  #9fc9d7 0%,#7898a4 100%);
+	background: linear-gradient(to bottom,  #9fc9d7 0%,#7898a4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fc9d7', endColorstr='#7898a4',GradientType=0 );
+}
+.jgh-header-child{
+	margin: 30px 10px;
+}
+.jgh-nav{
+	background: rgb(75,69,69);
+}
+.jgh-sidebar{
+	width: 200px;
+}
+.jgh-container{
+	max-width: 1200px;
+}
+footer{
+	background: #9fc9d7;
+	background: -moz-linear-gradient(top,  #9fc9d7 0%, #7898a4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9fc9d7), color-stop(100%,#7898a4));
+	background: -webkit-linear-gradient(top,  #9fc9d7 0%,#7898a4 100%);
+	background: -o-linear-gradient(top,  #9fc9d7 0%,#7898a4 100%);
+	background: -ms-linear-gradient(top,  #9fc9d7 0%,#7898a4 100%);
+	background: linear-gradient(to bottom,  #9fc9d7 0%,#7898a4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fc9d7', endColorstr='#7898a4',GradientType=0 );
+}
+.row{
+	max-width: 1000px;
+}
