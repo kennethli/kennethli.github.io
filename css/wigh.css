@@ -1,0 +1,110 @@
+section.wigh {
+  padding-top: 0.25em;
+}
+
+h7.nav {
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #E79C26;
+  font-size: 0.688em;
+}
+
+h2.wigh-feature {
+  float: left;
+  margin: 0em 0.625em 0em 0em;
+  border-radius: 0.375em 0.375em 0em 0em;
+  font-size: 1.25em;
+  text-align: center;
+  color: #FFF;
+  background-color: #5B3636;
+  width: 100%;
+  letter-spacing: 0.05em;
+  height: 1.3em;
+}
+
+div.wigh-feature {
+  background-color: #EEE;
+  border-radius: 0.374em;
+  overflow: auto;
+}
+
+div.wigh-feature-text h3 {
+  text-transform: uppercase;
+  color: #4B4545;
+  font-size: 0.75em;
+  letter-spacing: 0.05em;
+  padding-top: 0.25em;
+  margin-bottom: 0.25em;
+  margin-right: 0.25em;
+  padding-bottom: 0.1em;
+  line-height: 150%;
+  border-bottom: 0.1em solid #4B4545;
+  display: block;
+}
+
+div.wigh-feature-text p {
+  font-size: 0.75em;
+}
+
+ul.wigh-nav {
+  list-style: none;
+  font-size: 0.688em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  border-top: 0.2em solid black;
+  border-bottom: 0.05em solid black;
+  margin-left: 0em;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+}
+
+ul.wigh-nav li {
+  display: inline;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+  text-align: center;
+}
+
+ul.podcasts {
+  list-style: none;
+  width: 100%;
+  margin-left: 0em;
+}
+
+ul.podcasts li {
+  overflow: hidden;
+  width: 100%;
+  border-bottom: 0.1em solid #CDCDCD;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+}
+
+ul.podcasts li h3 {
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  padding-top: 0.25em;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+ul.podcasts li p.byline {
+  font-size: 0.688em;
+  margin-bottom: 0.25em;
+}
+
+ul.podcasts li p.excerpt {
+  font-size: 0.688em;
+  overflow: auto;
+  margin-bottom: 0.25em;
+}
+
+ul.podcasts li p.readmore {
+  font-size: 0.688em;
+  margin-bottom: 0em;
+}
