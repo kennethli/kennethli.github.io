@@ -1,7 +1,13 @@
+div.body {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
 section.wigh {
   padding-top: 0.25em;
   padding-left: 0em;
   padding-right: 0em;
+  padding-bottom: 0.25em;
 }
 
 h7.nav {
@@ -22,13 +28,14 @@ h2.wigh-feature {
   background-color: #5B3636;
   width: 100%;
   letter-spacing: 0.05em;
-  height: 1.3em;
+  height: 200%;
 }
 
 div.wigh-feature {
   background-color: #EEE;
   border-radius: 0.374em;
   overflow: auto;
+  height: 110%;
 }
 
 div.wigh-feature-text h3 {
@@ -49,8 +56,9 @@ div.wigh-feature-text p {
   font-size: 0.75em;
 }
 
-img.wigh-feature {
+img.wigh {
   padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }
 
 ul.wigh-nav {
@@ -114,4 +122,9 @@ ul.podcasts li p.excerpt {
 ul.podcasts li p.readmore {
   font-size: 0.688em;
   margin-bottom: 0em;
+}
+
+p.link {
+  color: black;
+  text-decoration: none;
 }
