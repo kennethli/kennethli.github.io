@@ -1,0 +1,123 @@
+section.printpage {
+  padding-top: .25em;
+}
+
+h2.print-head.main {
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #e79c26;
+  font-size: .7em;
+}
+
+h2.print-head.sub {
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #c2b298;
+  font-size: .7em;
+  padding-left: 1em;
+}
+
+h2.print-feature {
+  float: left;
+  border-radius: 0.375em 0.375em 0em 0em;
+  font-size: 1.25em;
+  text-align: center;
+  color: #FFF;
+  background-color: #698861;
+  width: 100%;
+  letter-spacing: 0.05em;
+  height: 1.4em;
+}
+
+div.print-feature-text h3 {
+  text-transform: uppercase;
+  color: #4B4545;
+  font-size: 0.75em;
+  letter-spacing: 0.05em;
+  padding-top: 0.25em;
+  margin-bottom: 0.25em;
+  margin-right: 0.25em;
+  padding-bottom: 0.1em;
+  line-height: 150%;
+}
+
+div.print-feature {
+  height: 20em;
+  background-color: #f4f4f4;
+  border: .2em solid;
+  border-color: #698861;
+  border-radius: 0.375em;
+}
+
+ul.articles {
+  list-style: none;
+  width: 100%;
+  margin-left: 0em;
+}
+
+ul.articles li {
+  overflow: hidden;
+  width: 100%;
+  border-bottom: 0.1em solid #CDCDCD;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+}
+
+h2.article-type {
+  float: left;
+  font-size: 1.25em;
+  text-align: center;
+  color: #FFF;
+  background-color: #3b4b77;
+  width: 100%;
+  letter-spacing: 0.05em;
+  height: 1.4em;
+}
+
+h2.article-name {
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 0.5em;
+}
+
+div.most-read {
+  height: 20em;
+  background-color: #f4f4f4;
+  border: .1em solid;
+  border-color: #698861;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+h2.most-read {
+	border-bottom: .1em solid #bfbfbf;
+	text-align: center;
+	color: #c14d4d;
+	font-size: 14px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	height: 2em;
+}
+
+li.most-read {
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #906a6a;
+}
+
+ol.most-read li {
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+  text-align: center;
+}
+
+#cnt{
+  float: left;
+  margin: 0 0 .5em 0;
+}
+
+
