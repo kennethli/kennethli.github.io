@@ -25,8 +25,7 @@ h1.jgh-title {
 	margin: 30px 10px;}
 .jgh-nav{
 	background: rgb(75,69,69);}
-.jgh-sidebar{
-	width: 200px;}
+
 .jgh-container{
 	max-width: 1200px;}
 footer{
@@ -62,6 +61,31 @@ footer{
 	font-weight:bold;
 	text-align:center;
 	border-bottom: 1px solid #CDCDCD;
+}
+.jgh-modular2{
+	margin: 0 0 10px 0;
+		background: #a2c4d1;
+		background: -moz-linear-gradient(top,  #a2c4d1 0%, #fbfcfe 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a2c4d1), color-stop(100%,#fbfcfe));
+		background: -webkit-linear-gradient(top,  #a2c4d1 0%,#fbfcfe 100%);
+		background: -o-linear-gradient(top,  #a2c4d1 0%,#fbfcfe 100%);
+		background: -ms-linear-gradient(top,  #a2c4d1 0%,#fbfcfe 100%);
+		background: linear-gradient(to bottom,  #a2c4d1 0%,#fbfcfe 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2c4d1', endColorstr='#fbfcfe',GradientType=0 );
+		border: 1px solid #506C76;
+		-webkit-border-radius: 5px;    /* CSS3 rounded borders for Safari                    */
+		-moz-border-radius: 5px;       /* CSS3 rounded borders for Firefox                   */
+		border-radius: 5px;	
+		margin-top: 0.2rem;
+}
+.jgh-modular2 h2{
+	font-size:15px;
+	color: black;
+	font-weight:bold;
+	text-align:center;
+	padding: 5px;
+	border-radius: 5px 5px 0px 0px;
+	margin-top: 0;
 }
 .jgh-currentissue img{
 	width:120px; 
@@ -114,8 +138,6 @@ footer{
 }
 .jgh-sidebar{
 	font-size:12px;
-	background: none repeat scroll 0% 0% #506C76;
-	border-radius: 5px 5px 0px 0px;
 }
 .jgh-sidebar-modular h2{
 	font-size:15px;
@@ -148,4 +170,7 @@ footer{
 }
 .jgh-information-modular{
 	border-bottom: 1px solid #CDCDCD;
+}
+.jgh-top-bar{
+	overflow:hidden;
 }
