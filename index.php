@@ -407,7 +407,7 @@ try{Typekit.load();}catch(e){}
                 </div>
             </div>
         </div>
-    </footer><script src="js/vendor/jquery.js"></script> <script src="js/foundation.min.js"></script> <script>
+    </footer>
 $(document).foundation();
     </script>
 
@@ -422,5 +422,9 @@ $(document).foundation();
     });
   </script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick.min.js"></script>
+	
+	<script>
+	  $(document).foundation();
+	</script>
 </body>
 </html>
