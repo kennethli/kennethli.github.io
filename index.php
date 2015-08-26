@@ -313,7 +313,7 @@ $(document).foundation();
   </script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick.min.js"></script>
 	
-	<script>
+	<script type="text/javascript">
 	  $(document).foundation();
 	</script>
 </body>
