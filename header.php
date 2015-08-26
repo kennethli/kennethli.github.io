@@ -17,8 +17,8 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/favicon.ico" type="image/x-icon">
-
-    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/foundation.css" rel="stylesheet">
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/stylesheets/app.css" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/stylesheets/foundation.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick-theme.css"/>
     <script src="js/vendor/modernizr.js"></script>
