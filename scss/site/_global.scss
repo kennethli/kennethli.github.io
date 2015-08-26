@@ -1,53 +1,253 @@
-/* 
- Global styles for FoundationPress
- Demo: http://foundationpress.olefredrik.com
-*/
+.glow{
+	box-shadow: 0 9px 0px 0px white, 0 -15px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
 
-// Prettify type rendering
-body {
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
 }
-
-// Reset margin and padding on figure element
-figure { 
-	margin: 0; 
-	padding: 0;
+.jgh-gradient{
+	background: #9fc9d7;
+	background: -moz-linear-gradient(top,  #9fc9d7 0%, #7898a4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9fc9d7), color-stop(100%,#7898a4));
+	background: -webkit-linear-gradient(top,  #9fc9d7 0%,#7898a4 100%);
+	background: -o-linear-gradient(top,  #9fc9d7 0%,#7898a4 100%);
+	background: -ms-linear-gradient(top,  #9fc9d7 0%,#7898a4 100%);
+	background: linear-gradient(to bottom,  #9fc9d7 0%,#7898a4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fc9d7', endColorstr='#7898a4',GradientType=0 )
 }
-
-// Add some basic styling for figcaption element
-figcaption {
-	margin-bottom: rem-calc(20);
-	margin-top: rem-calc(10); 
-	color: #6f6f6f; 
+$font-path: "../fonts/foundation-icons/foundation-icons";
+@font-face {
+  font-family: "foundation-icons";
+  src: url("#{$font-path}.eot");
+  src: url("#{$font-path}.eot?#iefix") format("embedded-opentype"),
+       url("#{$font-path}.woff") format("woff"),
+       url("#{$font-path}.ttf") format("truetype"),
+       url("#{$font-path}.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
-// Add the alignment classes used by the WordPress media library
-
-.alignleft {
-	float: left;
+@import "../fonts/foundation-icons/foundation-icons.css";
+body{
+	background: $lightblue !important;
 }
+.main{
+	.row{
+	background-color: white;
 
-.alignright {
-	float: right;
 }
+	padding-bottom:15px;
+}
+.jgh-trending{
+	.heading{border-bottom: 1px solid #CDCDCD;}
+	h2{font-family: $font-family-decorative-serif; margin:0;	
+		&.big{font-size: 2rem;} 
+		&.small{font-size: 0.8rem;} color: $jghlightgray-color; 
+	line-height: 70px;float:left;}
+	@extend .jgh-gradient;
+}
+footer{
+	@extend .glow;
+}
+header{
+	@extend .glow;
+}
+.slider-height{
+	max-height:300px;
+	overflow:hidden;
+	img{
+		max-height:300px;
+	}
+}
+.jgh-header{
+	@extend .jgh-gradient;
+}
+.main{
+	@extend .glow;
+	background-color: white;
+}
+.jgh-top-bar{
+		padding:0px;
+}
+.jgh-title{
+	float:left;
+}
+.jgh-header-child{
+		margin: 30px 10px;
+		.big {
+			font-size: 40px;
+			color: #4B4545;
+			}
+		.small {
+			font-size: 30px;
+			line-height: 76px;
+			color: #EDEDED;
+			}
+		}
+.main .columns{
+		padding-left: ($column-gutter / 2);
+		padding-left: 0;
+		&:last-child{
+			padding-right: ($column-gutter /2);
+		}
+	}
+	.has-form {
+			div{
+				background-color:$jghdarkgray-color;
+			}
 
-.aligncenter {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
+		  position: absolute;
 
-blockquote.alignleft,
-img.alignleft {
-	margin: rem-calc(7) rem-calc(24) rem-calc(7) 0;
-}
+		  top: 0;
 
-.wp-caption.alignleft {
-	margin: rem-calc(7) rem-calc(14) rem-calc(7) 0;
-}
+		  left: 1rem; // adjust distance from left here
 
-blockquote.alignright,
-img.alignright {
-	margin: rem-calc(7) 0 rem-calc(7) rem-calc(24);
-}
+		  min-width: 14rem; // adjust width here
+
+  
+
+		  @media only screen and (max-width: 40em) {
+
+		    min-width: 10rem;
+
+		    top: 0.5rem;
+
+    
+
+		    .button {
+
+		      height: 1.85rem;
+
+		    }
+
+		  }
+
+		}
+	.jgh-nav{
+		background: rgb(75,69,69);
+	}
+	.jgh-container{
+		max-width: 1200px;
+	}
+	.row{
+		max-width: 1000px;
+	}
+	header h1{
+		font-family: $font-family-decorative-sans;
+	}
+	.button.alert{
+		background-color: #7599AA;
+	}
+	.jgh-modular h2{
+		font-size:15px;
+		color: white;
+		font-weight:bold;
+		text-align:center;
+		padding: 5px;
+		background: none repeat scroll 0% 0% #506C76;
+		border-radius: 5px 5px 0px 0px;
+	}
+	.jgh-modular h3{
+		font-size:13px;
+		height: 25px;
+		line-height: 12px;
+		color: #CDCDCD;
+		font-weight:bold;
+		text-align:center;
+		border-bottom: 1px solid #CDCDCD;
+	}
+	.jgh-modular2{
+			margin: 0 0 10px 0;
+	@extend .jgh-gradient;
+	border: 1px solid #506C76;
+			-webkit-border-radius: 5px;    /* CSS3 rounded borders for Safari                    */
+			-moz-border-radius: 5px;       /* CSS3 rounded borders for Firefox                   */
+			border-radius: 5px;	
+			margin-top: 0.2rem;
+	}
+	.jgh-modular2 h2{
+		font-size:15px;
+		color: black;
+		font-weight:bold;
+		text-align:center;
+		padding: 5px;
+		border-radius: 5px 5px 0px 0px;
+		margin-top: 0;
+	}
+	.jgh-currentissue img{
+		width:120px; 
+		height:160px;
+		display:block;
+		margin:0 auto;
+	} 
+	.jgh-currentissue ul{
+		list-style:outside none none;
+			text-align:center;
+	}
+	.jgh-newsresearch{
+		font-size: 12px;
+		.img-padding{
+			padding-left:5px;
+		}
+	}
+	.jgh-newsresearch img{
+		width: 68px;
+		height:100px;
+	}
+	.jgh-newsresearch-modular{
+		border-bottom: 1px solid #CDCDCD;
+	}
+	.jgh-newsresearch-label a{
+		background: none repeat scroll 0% 0% #5D5D5D;
+		font-size: 9px;
+		color: #FFF;
+		padding: 2px 4px;
+		position: relative;
+		left:10px;
+	}
+	.jgh-newsresearch-desc{
+		position: relative;
+		left:10px;
+	}
+	.jgh-wighpodcast .row{
+		background:linear-gradient(to bottom, #EAF5F9 0%, #FFFCFC 64%, #FFFCFC 100%);
+		font-size: 13px;
+		color: gray;
+		text-align:left;
+	}
+	.jgh-wighpodcast h2{
+		background:none;
+		color: black;
+		text-align: left;
+	}
+	.jgh-wighpodcast img{
+		display:block;
+		margin: 0 auto;
+		position:relative;
+		top:5em;
+	}
+	.jgh-sidebar{
+		font-size:12px;
+	}
+	.jgh-sidebar-modular h2{
+		font-size:15px;
+		color: white;
+		font-weight:bold;
+		text-align:center;
+		padding: 5px;
+	}
+	.jgh-sidebar-modular h3{
+		font-size:13px;
+		height: 25px;
+		line-height: 12px;
+		color: #CDCDCD;
+		font-weight:bold;
+		text-align:center;
+		border-bottom: 1px solid #CDCDCD;
+	}
+	.jgh-footer{
+		background:none repeat scroll 0% 0% $jghlightgray-color;
+		font-family: "Times New Roman";
+		font-size: 15px;
+		color: white;
+		text-align: center;
+	}
+	.jgh-information-modular{
+		border-bottom: 1px solid #CDCDCD;
+	}
