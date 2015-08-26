@@ -16,29 +16,6 @@
 
 get_header(); ?>
 
-<!DOCTYPE html>
-
-<html class="no-js" lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title>Foundation | Welcome</title>
-    <link href="css/app.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick-theme.css"/>
-    <script src="js/vendor/modernizr.js"></script>
-	<script src="/js/vendor/jquery.js"></script>
-	<script src="/js/vendor/fastclick.js"></script>
-	<script src="/js/foundation.min.js"></script>
-    <script src="//use.typekit.net/zwi2ydl.js"></script>
-    <script>
-try{Typekit.load();}catch(e){}
-    </script>
-
-
-</head>
-
 <body>
     <header class="row">
 	    <div class="small-12 columns jgh-header hide-for-small-only">
