@@ -301,9 +301,9 @@ get_header(); ?>
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick.min.js"></script>
-	<script src="js/foundation.js"></script>
-  	<script src="js/vendor/jquery.js"></script>
-  	<script src="js/vendor/fastclick.js"></script>
+	<script src="/js/foundation.js"></script>
+  	<script src="/js/vendor/jquery.js"></script>
+  	<script src="/js/vendor/fastclick.js"></script>
 	<script type="text/javascript">
 	  $(document).foundation();
 	</script>
