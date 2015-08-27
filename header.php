@@ -22,9 +22,9 @@
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick-theme.css"/>
     <script src="js/vendor/modernizr.js"></script>
-	<script src="/js/vendor/jquery.js"></script>
-	<script src="/js/vendor/fastclick.js"></script>
-	<script src="/js/foundation.js"></script>
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/vendor/fastclick.js"></script>
+	<script src="js/foundation.js"></script>
     <script src="//use.typekit.net/zwi2ydl.js"></script>
     <script>
 try{Typekit.load();}catch(e){}
